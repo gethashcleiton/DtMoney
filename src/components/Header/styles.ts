@@ -4,15 +4,15 @@ export const Container = styled.header`
   background: var(--blue);
 `;
 export const Content = styled.div`
-    max-width: 1120px;
-    margin: 0 auto;
+  max-width: 1120px;
+  margin: 0 auto;
 
-    padding: 2rem 1rem 13rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 2rem 1rem 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    button { 
+  button {
     font-size: 1rem;
     color: #fff;
     background: var(--blue-light);
@@ -20,6 +20,6 @@ export const Content = styled.div`
     padding: 0 2rem;
     border-radius: 0.25rem;
     height: 3rem;
-
-}
+    outline: none;
+  }
 `;
